@@ -2,7 +2,7 @@
 
 ## 1. User Registration
 
-##### Endpoint :   /api/v1/users
+##### Endpoint :  `/api/v1/users`
 ##### Method   :   POST
 ##### Description: Creating a user.
 
@@ -35,7 +35,7 @@
 
 ## 2. User Sign In
 
-##### Endpoint :   /api/v1/users/sign_in
+##### Endpoint :   `/api/v1/users/sign_in`
 ##### Method   :   POST
 ##### Description: Signing in a user.
 
@@ -66,7 +66,7 @@
 
 ## 3. Follow a User
 
-##### Endpoint :   api/v1/users/follow?auth_token=
+##### Endpoint :   `api/v1/users/follow?auth_token=`
 ##### Method   :   POST
 ##### Description: Follow a User.
 
@@ -97,7 +97,7 @@
 
 ## 4. UnFollow a User
 
-##### Endpoint :   api/v1/users/unfollow?auth_token=
+##### Endpoint :   `api/v1/users/unfollow?auth_token=`
 ##### Method   :   POST
 ##### Description: UnFollow a User.
 
@@ -128,7 +128,7 @@
 
 ## 5. Get the Followers of User
 
-##### Endpoint :   api/v1/users/followers?auth_token=
+##### Endpoint :   `api/v1/users/followers?auth_token=`
 ##### Method   :   POST
 ##### Description: Get the Followers of a User.
 
@@ -165,7 +165,7 @@
 
 ## 6. Get the Followings of a User
 
-##### Endpoint :   api/v1/users/following?auth_token=
+##### Endpoint :   `api/v1/users/following?auth_token=`
 ##### Method   :   POST
 ##### Description: Get the Followings of a User.
 
@@ -205,7 +205,7 @@
 
 ## 6. Block a User
 
-##### Endpoint :   /api/v1/users/block?auth_token=
+##### Endpoint :   `/api/v1/users/block?auth_token=`
 ##### Method   :   POST
 ##### Description: Block a User.
 
@@ -230,11 +230,11 @@
 
 ## 7. Get the User Information
 
-##### Endpoint :   /api/v1/users/:id?auth_token=
+##### Endpoint :   `/api/v1/users/:id?auth_token=`
 ##### Method   :   GET
 ##### Description: Get the Information of a User.
 
-### Request : /api/v1/users/1?auth_token=
+### Request : `/api/v1/users/1?auth_token=`
 
 ### Response : 
 
