@@ -14,7 +14,9 @@
     "email":"rajeev@gmail.com",
     "password":"vBh12##@",
     "password_confirmation" : "vBh12##@",
-    "username": "rShetty"
+    "username": "rShetty",
+    "first_name": "Rajeev",
+    "last_name" : "Bharshetty"
     }
   }
 ```
