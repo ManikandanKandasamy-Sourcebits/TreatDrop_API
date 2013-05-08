@@ -244,9 +244,10 @@
     "data": {
         "user": {
             "id": 29,
-            "email": "rajeevsrvaissas@gmail.com",
-            "last_name": null,
-            "username": "ABCDEFGHI"
+            "email": "rajeev@gmail.com",
+            "first_name" : "Rajeev"
+            "last_name": "Bharshetty",
+            "username": "rShetty"
         }
       }
     }
