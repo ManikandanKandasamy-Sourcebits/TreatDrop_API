@@ -169,6 +169,31 @@
     }
 ```
 
+## 5. Information of a Venue
+
+##### Endpoint :   `/api/v1/venues/:id?auth_token=`
+##### Method   :   GET
+##### Description: Get the Information of a Venue.
+
+### Request : `{BASE_URL}/api/v1/venues/163?auth_token=`
+
+### Response :
+
+```json
+    {
+    "status": "success",
+    "data": {
+        "venue": {
+            "id": 163,
+            "venue_name": "Crown Plaza Bangalore",
+            "venue_address": "43 Electronics City Bangalore Karnataka India"
+         }
+      }
+    }
+```
+
+
+
 
 
 
