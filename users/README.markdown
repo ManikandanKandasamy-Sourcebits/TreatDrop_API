@@ -64,6 +64,39 @@
   }
 ```
 
+## 3. Follow a User
+
+##### Endpoint :   api/v1/users/follow?auth_token=
+##### Method   :   POST
+##### Description: Follow a User.
+
+### Request :
+
+```json
+  {
+    "follow_id" : 29
+  }
+```
+
+### Response :
+
+```json
+    {
+    "status": "success",
+    "data": {
+        "follow": {
+            "id": 12,
+            "followable_id": 29,
+            "follower_id": 32,
+            "followable_type": "User",
+            "follower_type": "User"
+        }
+      }
+    }
+```
+
+
+
 
 
 
