@@ -220,13 +220,40 @@
 ### Response :
 
 ```json 
+   {
+    "status": "success",
+    "data": {
+        "user": {}
+     }
+   } 
+```
+
+## 7. Get the User Information
+
+##### Endpoint :   /api/v1/users/:id?auth_token=
+##### Method   :   GET
+##### Description: Get the Information of a User.
+
+### Request : /api/v1/users/1?auth_token=
+
+### Response : 
+
+```json
     {
     "status": "success",
     "data": {
-    
+        "user": {
+            "id": 29,
+            "email": "rajeevsrvaissas@gmail.com",
+            "last_name": null,
+            "username": "ABCDEFGHI"
+        }
       }
     }
 ```
+
+
+
 
 
 
