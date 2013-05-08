@@ -163,6 +163,48 @@
      }
 ```
 
+## 6. Get the Followings of a User
+
+##### Endpoint :   api/v1/users/following?auth_token=
+##### Method   :   POST
+##### Description: Get the Followings of a User.
+
+### Request : 
+
+```json
+  {
+    "user_id" : 32
+  }
+```
+
+### Response :
+
+```json
+    {
+    "status": "success",
+    "data": {
+        "follows": [
+            {
+                "id": 13,
+                "followable_id": 29,
+                "followable_type": "User",
+                "follower_id": 32,
+                "follower_type": "User"
+            },
+            {
+                "id": 14,
+                "followable_id": 28,
+                "followable_type": "User",
+                "follower_id": 32,
+                "follower_type": "User"
+            }
+         ]
+      }
+    } 
+```
+
+
+
 
 
 
