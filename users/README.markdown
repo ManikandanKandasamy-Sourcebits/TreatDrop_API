@@ -126,6 +126,45 @@
     }
 ```
 
+## 5. Get the Followers of User
+
+##### Endpoint :   api/v1/users/followers?auth_token=
+##### Method   :   POST
+##### Description: Get the Followers of a User.
+
+### Request : 
+
+```json
+  {
+    "user_id" : 29
+  }
+```
+
+### Response :
+
+```json
+
+    {
+    "status": "success",
+    "data": {
+        "users": [
+            {
+                "id": 32,
+                "username": "rajeev",
+                "email": "teja@gmail.com"
+            },
+            {
+                "id": 36,
+                "username": "sanjeev",
+                "email": "roja@gmail.com"
+            }
+          ]
+        }
+     }
+```
+
+
+
 
 
 
