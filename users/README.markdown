@@ -95,6 +95,38 @@
     }
 ```
 
+## 4. UnFollow a User
+
+##### Endpoint :   api/v1/users/unfollow?auth_token=
+##### Method   :   POST
+##### Description: UnFollow a User.
+
+### Request :
+
+```json
+  {
+    "unfollow_id" : 29
+  }
+```
+
+### Response :
+
+```json
+    {
+    "status": "success",
+    "data": {
+        "unfollow": {
+            "id": 12,
+            "followable_id": 29,
+            "follower_id": 32,
+            "followable_type": "User",
+            "follower_type": "User"
+        }
+      }
+    }
+```
+
+
 
 
 
