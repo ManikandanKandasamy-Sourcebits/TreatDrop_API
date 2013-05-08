@@ -61,7 +61,7 @@
    }
 ```
 
-## 4. UnFollow a Venue
+## 3. UnFollow a Venue
 
 ##### Endpoint :   `api/v1/brands/unfollow?auth_token=`
 ##### Method   :   POST
@@ -92,7 +92,7 @@
    }
 ```
 
-## 5. Get the Followers of a Brand
+## 4. Get the Followers of a Brand
 
 ##### Endpoint :   `api/v1/brands/followers?auth_token=`
 ##### Method   :   POST
