@@ -203,6 +203,33 @@
     } 
 ```
 
+## 6. Block a User
+
+##### Endpoint :   /api/v1/users/block?auth_token=
+##### Method   :   POST
+##### Description: Block a User.
+
+### Request :
+
+```json
+  {
+    "user_id" : 32
+  }
+```
+
+### Response :
+
+```json 
+    {
+    "status": "success",
+    "data": {
+    
+      }
+    }
+```
+
+
+
 
 
 
